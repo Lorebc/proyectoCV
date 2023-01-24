@@ -1,0 +1,107 @@
+.Intro {
+    background: rgb(101, 148, 175);
+    color: white;
+    /*font-family: sans-serif;*/
+	font-family: 'Mitr', sans-serif;
+	text-align: justify;
+	/*font-family: 'PT Sans Caption', sans-serif;*/
+    font-weight:bold;
+    
+}
+.Sub {
+    background: rgb(121, 168, 169);
+    color: rgb(121, 168, 169);
+    font-weight:bolder;
+}
+.Fondo {
+    background: rgb(150, 187, 188) ;
+    color: white;
+}
+.lado {
+    background: rgb(121, 168, 169);
+    color: white;
+    width: 27%;
+    height: 20%;
+    border: 1px solid black;
+    float: right;
+    margin-bottom: 15px;
+}
+.lad0{
+    background: rgb(121, 168, 169);
+    color: white;
+    width: 27%;
+    height: 150px;
+    border: 1px solid black;
+    float: right;
+    margin-bottom: 15px;
+
+}
+footer,aside,.Intro,.Sub {
+    border: 1px solid black;
+    display: block;
+}
+body {
+    text-align: center;
+    Font-size: 20px;
+}
+.centro {
+    border: 2px solid rgb(101, 148, 175);
+    width: 900px;
+    margin: auto;
+    padding: 20px 10px 20px;
+    background: rgb(170, 207, 208)
+}
+.Sub li {
+    list-style: none;
+    padding: 3px;
+    font: bold 15px Arial;
+    display: inline-block;
+}
+li {
+    list-style: none;
+}
+
+.seccion {
+    border: 1px solid black;
+    background: rgb(121, 168, 169);
+    width: 70%;
+    height: 50%;
+    float: left;
+	}
+
+
+footer ul
+{
+    background: rgb(121, 168, 169) ;
+    border:1px solid black;
+}
+
+blockquote {
+    color: gold;
+}
+
+.partes {
+    background: rgb(100, 148, 149)
+}
+
+footer {
+    clear: both;
+}
+
+.btn {
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  background-color: green;
+  color: white;
+  transition: background-color .15s ease-in-out;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #0069d9;
+}
+
+.btn:active {
+  background-color: #0062cc;
+}
+
+
